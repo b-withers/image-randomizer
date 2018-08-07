@@ -15,13 +15,12 @@
 
 <p>I put the function inside the HTML, but it could easily be moved to a external file. An array of images is created, and then called randomly and displayed to the specified class, easy peasy<p>
 
-```java
-<!--Function to randomly pick an image from array-->
+```js
     <script type="text/javascript">
         $(function() {
             //array of images, I named them in numerical order for simplicty
             var images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg'];
-            //jQuery function contains path to images, and function to call a random image, please note the url is the correct path to your images!
+            //jQuery function contains path to images, and function to call a random image.
             $('.hero').css({'background-image': 'url(img/backgrounds/' + images[Math.floor(Math.random() * images.length)] + ')'});
             });
     </script>
