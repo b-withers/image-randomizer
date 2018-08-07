@@ -1,1 +1,1 @@
-<img src="/img/readme/random.gif>
+<img src="/img/readme/random.gif">
